@@ -1,0 +1,221 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI';
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(227, 227, 245);
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.top {
+    height: auto;
+    width: 100%;
+    background-color: rgb(66, 66, 160);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+#facebook {
+    height: 100%;
+    width: auto;
+    font-size: 2.8rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 9rem;
+}
+
+.login {
+    height: 100%;
+    width: 27rem;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-right: 10rem;
+}
+
+table {
+    height: 100%;
+    width: 100%;
+}
+
+td {
+    height: auto;
+    width: auto;
+}
+
+#e-mail, #password {
+    height: 100%;
+    width: 100%;
+    padding: 0.1rem;
+    background-color: rgb(255, 255, 170);
+}
+
+#log-in {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0.3rem;
+    background-color: rgb(151, 151, 204);
+    color: white;
+}
+
+#checkbox {
+    cursor: pointer;
+}
+
+#logged-in {
+    cursor: pointer;
+}
+
+#forgot-password {
+    color: white;
+}
+
+.main-box {
+    height: auto;
+    width: 100%;
+    padding-top: 2rem;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.box-1 {
+    height: auto;
+    width: 35rem;
+    margin-left: 9rem;
+}
+
+.box-1 h1 {
+    font-size: 2rem;
+}
+
+.points {
+    height: auto;
+    width: auto;
+    font-size: large;
+    margin-top: 2.5rem;
+    margin-left: 5.5rem;
+}
+
+.points p {
+    margin-bottom: 1rem;
+}
+
+.box-2 {
+    height: auto;
+    width: 25rem;
+    margin-right: 12rem;
+}
+
+.box-2 h1, #free {
+    margin-bottom: 1rem;
+}
+
+.inputs {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+#first-name, #second-name {
+    height: auto;
+    width: 50%;
+    font-size: 1rem;
+    padding: 0.1rem;
+    margin-bottom: 0.05rem;
+}
+
+#e-mail-or-phone-number, #re-enter, #new-password {
+    height: auto;
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.1rem;
+    margin-bottom: 0.05rem;
+}
+
+.birthday-box {
+    margin-bottom: 1rem;
+}
+
+.birthday {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.choose-date {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+select {
+    height: auto;
+    width: auto;
+    cursor: pointer;
+    background-color: rgb(220, 220, 220);
+    padding: 0.1rem;
+}
+
+option {
+    background-color: white;
+}
+
+.birthday span {
+    font-size: small;
+}
+
+.gender {
+    margin-bottom: 1rem;
+}
+
+.gender label, #male, #female {
+    cursor: pointer;
+}
+
+#sign-up {
+    border-radius: 7px;
+    height: auto;
+    width: auto;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: rgb(67, 161, 67);
+    cursor: pointer;
+    color: white;
+    margin: 1rem 0rem;
+    padding: 0.2rem 3.7rem;
+}
+
+#create-page {
+    margin-top: 0.5rem;
+}
